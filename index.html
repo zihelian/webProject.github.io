@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>SMART INVESTING</title>
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+    <!-- Bootstrap core CSS     -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/bootstrap.min.css" />
+    <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/now-ui-kit.min.css?v1.2.0"
+        rel="stylesheet" />
+    <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/demo/demo.css" rel="stylesheet" />
+
+  <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/now-ui-kit.min.css?v1.2.0" rel="stylesheet"/>
+  <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/demo/demo.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- not using default Mailchimp styles  -->
+    <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
+    
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+       
+</head>
+
+<body class="index-page sidebar-collapse">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" rel="tooltip" title="Smart Invest" data-placement="bottom" target="_blank">
+                    
+                </a>
+                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" data-nav-image="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/img/blurred-image-1.jpg">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <!-- below onclick event script to close expanded navbar when link is clicked -->
+                        <a class="nav-link" rel="tooltip" title="View Features" data-placement="bottom" href="#features"
+                            onclick="$('.navbar-toggler:visible').click();">
+                            FEATURES
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- below onclick event script to close expanded navbar when link is clicked -->
+                        <a class="nav-link" rel="tooltip" title="Sign up for Info" data-placement="bottom" href="#signup"
+                            onclick="$('.navbar-toggler:visible').click();">
+                            SIGN UP
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Below mouseout and onclick event scripts are for the following
+                         1- disables navigation while otherwise acting as a normal link 
+                         2- hides the tooltip when the popover is activated
+                         3- removes popover when mouse is moved away
+                        (also used for facebook and instagram links) -->
+                        <div data-container="body" data-toggle="popover" title="We're sorry," data-placement="bottom"
+                            data-content="Twitter account doesn't exist." onmouseout="$(this).popover('hide');">
+                            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom"
+                                onclick="$(this).tooltip('hide'); return false;" href="https://twitter.com/AMTDigitalToolbox"
+                                target="_blank">
+                                <i class="fa fa-twitter"></i>
+                                <p class="d-lg-none d-xl-none">Twitter</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div data-container="body" data-toggle="popover" title="We're sorry," data-placement="bottom"
+                            data-content="Facebook page doesn't exist." onmouseout="$(this).popover('hide');">
+                            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom"
+                                onclick="$(this).tooltip('hide'); return false;" href="https://www.facebook.com/AMTDigitalToolbox"
+                                target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                                <p class="d-lg-none d-xl-none">Facebook</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div data-container="body" data-toggle="popover" title="We're sorry," data-placement="bottom"
+                            data-content="Instagram account doesn't exist." onmouseout="$(this).popover('hide');">
+                            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom"
+                                onclick="$(this).tooltip('hide'); return false;" href="https://www.instagram.com/AMTDigitalToolbox"
+                                target="_blank">
+                                <i class="fa fa-instagram"></i>
+                                <p class="d-lg-none d-xl-none">Instagram</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="wrapper">
+        <div class="page-header clear-filter" filter-color="pink-blue">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('images/headBG.jpg');">
+            </div>
+            <div class="container">
+                <div class="content-center brand">
+                    <img class="logo" src="images/hand.png" alt="Smart Invest">
+                    <h1><b>SMART INVESTING</b></h1>
+                    <h3 class="animated slideInUp">Stock Marke Analysis & Tools for Investors</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+
+            <div class="section section-basic">
+                <div class="container text-center mt-5" id="features">
+                    <h3 class="title">An all-in-one app for stock investers</h3>
+
+                    <!--Features cards-->
+                    <div class="row">
+                        <div class="card col-sm-6 col-lg-3">
+                            <div class="card-header">
+                                <h4 class="card-title"> 
+                                    Stock Recommendations
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="text-info">Offers news and analysis of stocks and market</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Ananlyst Ratings</li>
+                                    <li class="list-group-item">Insider Activity</li>
+                                    <li class="list-group-item">Big Data Analytics</li>
+                                    <li class="list-group-item">Machine Learning Modole for Stock Prediction</li>
+                                </ul>
+                            </div>
+                            <img class="card-bottom faded" src="images/recomm.jpg" alt="Controls" />
+                        </div>
+                        <div class="card  col-sm-6 col-lg-3">
+                            <img class="card-top moreFaded" src="images/tools.jpg" alt="Calculator" />
+                            <div class="card-header" role="tab" id="heading2">
+                                <h4 class="card-title">
+                                   Advanced Technical Tools
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="text-info">Explore Potential Picks</h6>
+                                <ul class="list-group list-group-flush">
+
+                                    <li class="list-group-item">Data Visualization Tools</li>
+                                    <li class="list-group-item">Customizable Charting</li>
+                                    <li class="list-group-item">Technical Indicators</li>
+                                    <li class="list-group-item">Fair Value Calculator</li>
+                                    <li class="list-group-item">Comprehensive Stock Scanner</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card col-sm-6 col-lg-3">
+                            <div class="card-header" role="tab" id="heading3">
+                                <h4 class="card-title">
+                                    Provide detailed information about individual stocks
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="text-info">Use the App to View</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Stock price</li>
+                                    <li class="list-group-item">Detaled Quote</li>
+                                    <li class="list-group-item">Key Metrics</li>
+                                    <li class="list-group-item">Financials</li>
+                                
+                                </ul>
+                            </div>
+                            <br />
+                            <img class="card-bottom align-self-end faded" src="images/stock-detail.jpg" alt="Publications" />
+                        </div>
+                        <div class="card col-sm-6 col-lg-3">
+                            <img class="card-top moreFaded" src="images/news.jpg" alt="Professional" />
+                            <div class="card-header" role="tab" id="heading4">
+                                <h4 class="card-title">
+                                    News and Discovery Tools
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="text-info">Recive Market Updates</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Company News</li>
+                                    <li class="list-group-item">Industry News</li>
+                                    <li class="list-group-item">Economic News</li>
+                                
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br />
+                    <hr />
+
+                    <!--Sign-up button-->
+                    <p id="signup">Sign up to get product release and other information.</p>
+                    <button class="btn btn-info btn-round btn-lg" type="button" data-toggle="modal" data-target="#emailForm">
+                        <i class="now-ui-icons ui-1_email-85"></i> Sign Up
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer" data-background-color="black">
+        <div class="container">
+            <div class="row">
+                <nav class="col-sm-6 text-center text-sm-left">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/jhbest/udemy-nuk/blob/master/README.md">
+                                About This Page
+                            </a>
+                        </li>
+
+                        <li>
+                            <a data-toggle="modal" data-target="#suggestion" href="#" onclick="return false;">
+                                Suggest Features
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="copyright col-sm-6 text-sm-right">
+                    &copy;
+                    Coded and Designed by Emily Lian
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sign-up Modal -->
+    <div class="modal fade" id="emailForm" tabindex="-1" role="dialog" data-keyboard="true" aria-labelledby="formLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="formLabel">For More Information</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-left">
+
+                    <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form action="https://tech.us18.list-manage.com/subscribe/post?u=9a4231984ba198b882be7800f&amp;id=e7a0134cf9"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                            target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <div class="indicates-required">
+                                    <span class="asterisk">*</span> indicates required
+                                </div>
+                                <div class="mc-field-group form-group">
+                                    <label for="mce-EMAIL">Email address
+                                        <span class="asterisk">*</span>
+                                    </label>
+                                    <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL"
+                                        aria-describedby="emailHelp" placeholder="Enter email" />
+                                    <small id="emailHelp" class="form-text text-muted">We promise to not
+                                        share your email with anyone else.</small>
+                                </div>
+                                <div class="mc-field-group form-group">
+                                    <label for="mce-FNAME">First Name </label>
+                                    <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" />
+                                </div>
+                                <div class="mc-field-group form-group">
+                                    <label for="mce-LNAME">Last Name </label>
+                                    <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME" />
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response alert alert-danger" id="mce-error-response" style="display:none"></div>
+                                    <div class="response alert alert-success" id="mce-success-response" style="display:none"></div>
+                                </div>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                    <input type="text" name="b_9a4231984ba198b882be7800f_e7a0134cf9" tabindex="-1"
+                                        value="" />
+                                </div>
+                                <!-- replaced mailchimp submit with modal submit button below
+                                                <div class="clear">
+                                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                                                        class="button">
+                                                </div> -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary" form="mc-embedded-subscribe-form">Sign
+                                    Up</button>
+                            </div>
+
+                        </form>
+                    </div>
+                    <!--End mc_embed_signup-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End sign-up modal -->
+
+    <!-- Suggestion Modal -->
+    <div class="modal fade" id="suggestion" tabindex="-1" role="dialog" data-keyboard="true" aria-labelledby="formLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" data-background-color="black">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="formLabel">Your suggestions and comments are welcome</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-left">
+                    <form action="" method="post" id="sug-form" name="sug-form" class="needs-validation" novalidate>
+                        <div class="text-right">
+                            <span class="text-primary">*</span> <small>indicates required</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="sug-email">Email address
+                                <span class="text-primary">*</span>
+                            </label>
+                            <input type="email" value="" name="email" class="form-control" id="sug-email"
+                                aria-describedby="emailHelp" placeholder="Enter email" required />
+                            <small id="emailHelp" class="form-text text-muted">We promise to
+                                not share your email with anyone else.</small>
+                            <div class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="sug-name">Name </label>
+                            <input type="text" value="" name="name" class="form-control" id="sug-name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="suggest">Suggestions or Comments <span class="text-primary">*</span>
+                            </label>
+                            <textarea name="suggest" class="form-control" id="suggest" rows="3" required></textarea>
+                            <div class="invalid-feedback">
+                                Please leave a comment.
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="subscribe" name="subscribe">
+                                <label class="custom-control-label" for="subscribe">Subscribe to the newsletter</label>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End suggestion modal -->
+
+
+    <!--   Core JS Files   -->
+    <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/core/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/core/popper.min.js"></script>
+    <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/core/bootstrap.min.js"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/bootstrap-switch.js"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/nouislider.min.js"></script>
+    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+    <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/bootstrap-datepicker.js"></script>
+    <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+    <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/now-ui-kit.js"></script>
+
+    <!-- MailChimp JS -->
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+health plan
+</html>
